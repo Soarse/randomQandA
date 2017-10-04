@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    background-color: deepskyblue;
+}
+
+
+.layout {
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#title {
+    /*margin: 0 auto;*/
+    font-size: 64px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+#title div {
+    margin-bottom: 20px;
+
+}
+
+#title div span {
+    font-size: 64px;
+    border-bottom: 6px solid yellowgreen;
+}
+
+#title .subtitle {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 2px;
+    font-size: 56px;
+    font-family: 楷体;
+
+    color: red;
+    border-radius: 5px;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+/*---------------------------------------*/
+#project {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 1100px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: #D8DBE2;
+}
+
+
+
+
+#participant {
+    padding: 0 20px;
+    font-size: 48px;
+
+    /*border: 1px solid grey;*/
+    border-radius: 10px;
+}
+
+#participant label {
+    background-color: orange;
+    border-radius: 10px;
+
+    padding: 10px;
+    /*margin: 20px 0;*/
+    margin-left: -20px;
+}
+
+#participant span {
+    display: inline-block;
+    /*margin: 0 auto;*/
+
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    background-color: lightseagreen;
+
+    padding: 10px;
+    margin-left: 148px;
+}
+
+
+
+
+#asking {
+    padding: 0px;
+    font-size: 48px;
+}
+
+#asking label {
+    display: inline-block;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#asking div {
+    /*max-width: 800px;*/
+
+    height: 130px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+#submit {
+    text-align: center;
+    /*width: 100px;*/
+    /*border: 1px solid crimson;*/
+}
+
+#submit button {
+    display: inline-block;
+
+    width: 300px;
+    height: 80px;
+    margin: 20px 0px;
+
+    border-radius: 10px;
+    background-color: #8E9CB2;
+
+    color: white;
+    font-size: 32px;
+}
+
+
+#submit button:nth-of-type(2) {
+    margin: 0px 93px;
+}
+
+
+
+
+#bottom-line {
+    text-align: center;
+    font-size: 24px;
+}
+
+#bottom-line span {
+    margin: 0 200px;
+
+}
+
+
+
+
+
+/*---------------------------------------*/
+
+.myscroll {
+    display: inline-block;
+    width: 90px;
+    height: 480px;
+    /*margin: 0 auto; */
+    margin-top: 30px;
+
+    /*border: 1px solid #ccc;*/
+    line-height: 26px;
+    font-size: 32px;
+    overflow: hidden;
+
+    position: absolute;
+
+}
+
+.myscroll li {
+    height: 64px;
+    list-style: none;
+    font-size: 48px;
+    font-family: 微软雅黑;
+
+    color: yellow;
+}
+
+.layout .myscroll:nth-of-type(1) li {
+
+}
+
+.layout .myscroll:nth-of-type(2) {
+    right: 20px;
+}
+
+.layout .myscroll:nth-of-type(2) li {
+    margin-left: -10px;
+}
+
+
+
+
+/*---------------------------------------*/
+#uploadArea {
+    margin: 0 auto;
+
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    height: 400px;
+
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: #D8DBE2;
+
+    /*visibility: hidden;*/
+}
+
+#uploadArea input {
+    display: block;
+}
+
+#uploadArea textarea {
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*.active {*/
+    /*visibility: visible;*/
+/*}*/
